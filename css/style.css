@@ -3,3 +3,133 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #202124;
+  color: #E8EAE4;
+}
+
+a {
+  color: #86AFF2;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin: 15px 10px;
+}
+
+ul li a {
+  color: #73777C;
+}
+
+header {
+  width: 100%;
+  margin-top: 10px;
+  position: fixed;
+  top: 0;
+}
+header > nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-sign-in {
+  background-color: #93BAF9;
+  color: #292D35;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.google-logo {
+  margin-bottom: 50px;
+}
+
+.google-search {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.google-search-img {
+  position: absolute; 
+  left: 133px;
+  top: 20px;
+  display: flex;
+}
+
+.keyb-foto {
+  display: flex;
+  position: absolute;
+  left: 600px;
+}
+
+.google-search-img img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.search {
+  width: 75%;
+  outline: none;
+  padding: 20px 100px 20px 50px;
+  background-color: #202124; 
+  color: white;
+  border: 1px solid gray;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.google-buttons {
+  margin-bottom: 20px;
+}
+
+.btn:first-child {
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #303134;
+  color: #DEE0E2;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #171717;
+  color: #9AA0A6;
+}
+
+.country {
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right, .nav-left {
+  font-size: 16px;
+}
